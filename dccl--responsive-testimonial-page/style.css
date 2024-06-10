@@ -1,0 +1,140 @@
+body {
+    background-color: #FAFAF9;
+    display: flex;
+    flex-direction: row;
+    width: 1280px;
+    height: 640px;
+    margin-left: 72px;
+    margin-right: 72px;
+    font-family: Sora;
+}
+
+@media (max-width: 640px) {
+	body {
+    flex-direction: column;
+    height: 1280px;
+	}
+}
+
+.reviewers {
+    margin-top: 80px;
+    width: 50%;
+
+}
+
+.star {
+    background-color: #F5C044;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #18181B;
+    margin-bottom: 20px;
+}
+
+.content {
+    padding-right: 90px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #52525A;
+}
+
+.checklist {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    color: #52525A; 
+    grid-column-gap: 10px;
+    grid-row-gap: 10px; 
+}
+
+.check {
+    display: grid;
+    flex-direction: column;
+    grid-row-gap: 10px;
+}
+
+
+.avaliation {
+    width: 50%;
+    margin-top: 80px;
+}
+
+.card1 {
+    width: 50%;
+    height: auto;
+    background-color: white;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    margin-left: 25%;
+    line-height: 30px;
+}
+
+.card2 {
+    width: 50%;
+    height: auto;
+    background-color: white;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+
+.cardGoogle {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    column-gap: 6px;
+    padding-left: 30px;
+}
+
+.logoGoogle {
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-size: 16px;
+    padding-left: 30px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.text {
+    padding-left: 30px;
+    padding-right: 10px;
+    color: #52525A; 
+    font-size: 16px;
+}
+
+.cardMeta {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    column-gap: 6px;
+    padding-left: 30px;
+}
+
+.logoMeta {
+    width: 25%;
+}
