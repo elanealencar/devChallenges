@@ -1,0 +1,152 @@
+body {
+    font-family: Poppins;
+    background-color: #F2F9FE;
+    color: #223344;
+    margin-left: 60px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small--title {
+    font-size: 14px;
+    color: #111729;
+    font-weight: bold;
+    margin-bottom: 16px;
+
+}
+
+.big--title {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.legend {
+    font-size: 18px;
+    margin-right: 80px;
+    margin-bottom: 10px;
+}
+
+.legend {
+    color: #909193;
+}
+
+.small--legend, button {
+    font-size: 14px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 60px;
+    color: #909193;
+    font-weight: bold;
+}
+
+
+.menu {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 14px;
+}
+
+.menu div:hover {
+    color: #223344;
+    cursor:pointer;
+}
+
+
+.modo-light-dark {
+    background-color: #111729;
+    height: 22px;
+    width: 25px;
+    border-radius: 30px;
+    padding-right: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.sun {
+    display: flex;
+    background-color: #F2F9FE;
+    border-radius: 100%;
+    height: 18px;
+    width: 26px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: -30px;
+    cursor:pointer;
+
+}
+
+.modo-choise {
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container-text {
+    width: 100%;
+}
+
+.container-img {
+    width: 100%;
+}
+
+.image {
+    width: 90%;
+    padding-top: 30px;
+}
+
+button {
+    width: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 15px;
+    height: 50px;
+    font-weight: bold;
+    background-color: #2A4DD0;
+    color: #F2F9FE;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor:pointer;
+}
+
+.container-button {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.demo {
+    display: flex;
+    margin-left: 30px;
+    color: #2A4DD0;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center; 
+    cursor:pointer;   
+}
+
+.small--legend {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
