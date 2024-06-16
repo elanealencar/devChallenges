@@ -9,10 +9,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css"/>
 </head>
-<body>
+<body class="body--total">
    <nav>
-        <div class="logo">
-            <img src="assets/images/alarado-icon-homepage.svg"/>
+        <div class="logo--container">
+            <img class="logo" src="assets/images/alarado-icon-homepage.svg"/>
         </div>
         <div class="menu">
             <div>About us</div>
@@ -20,8 +20,8 @@
             <div>Resource</div>
             <div>Contact</div>
         </div>
-        <div class="modo-choise">
-            <img class="modo-light-dark" src="assets/images/Moon_fill_light.svg"/>
+        <div class="modo-choise" onclick="toggleDarkMode()">
+            <img class="moon" src="assets/images/Moon_fill_light.svg"/>
             <img class="sun" src="assets/images/Sun_fill.svg"/>
         </div>
     </nav>
@@ -43,6 +43,7 @@
         </div>
         <div class="container-img"><img class="image" src="assets/images/hero-image-simple-homepage.png"/></div>
    </div>
-    
+
+<script src="script.js"></script>
 </body>
 </html>
